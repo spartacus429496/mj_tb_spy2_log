@@ -1,0 +1,88 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOT_NAME	TB/settings.py	/^BOT_NAME = 'TB'$/;"	v
+COOKIES_ENABLED	TB/settings.py	/^COOKIES_ENABLED=True$/;"	v
+DEFAULT_REQUEST_HEADERS	TB/settings.py	/^DEFAULT_REQUEST_HEADERS = {$/;"	v
+DUPEFILTER_CLASS	TB/settings.py	/^DUPEFILTER_CLASS ='TB.tb_dupfilter.SeenURLFilter'$/;"	v
+ITEM_PIPELINES	TB/settings.py	/^ITEM_PIPELINES = {$/;"	v
+NEWSPIDER_MODULE	TB/settings.py	/^NEWSPIDER_MODULE = 'TB.spiders'$/;"	v
+SPIDER_MODULES	TB/settings.py	/^SPIDER_MODULES = ['TB.spiders']$/;"	v
+SeenURLFilter	TB/tb_dupfilter.py	/^class SeenURLFilter(RFPDupeFilter):$/;"	c
+Taobao	tb_login.py	/^class Taobao:$/;"	c
+TaobaoShop	TB/items.py	/^class TaobaoShop(Item):$/;"	c
+TaobaoSpider	TB/spiders/taobao_spider.py	/^class TaobaoSpider(scrapy.spiders.Spider):$/;"	c
+TbPipeline	TB/pipelines.py	/^class TbPipeline(object):$/;"	c
+Tool	tool.py	/^class Tool:$/;"	c
+__author__	tb_login.py	/^__author__ = 'CQC'$/;"	v
+__author__	tool.py	/^__author__ = 'CQC'$/;"	v
+__decode_tb_json	TB/spiders/taobao_spider.py	/^    def __decode_tb_json(self, data, charset):$/;"	m	class:TaobaoSpider	file:
+__init__	TB/spiders/taobao_spider.py	/^    def __init__(self):$/;"	m	class:TaobaoSpider
+__init__	tb_login.py	/^    def __init__(self):$/;"	m	class:Taobao
+__init__	tool.py	/^    def __init__(self):$/;"	m	class:Tool
+__next_task_url	TB/spiders/taobao_spider.py	/^    def __next_task_url(self):$/;"	m	class:TaobaoSpider	file:
+__shop_commodity	TB/items.py	/^class __shop_commodity():$/;"	c
+checkCodeUrl	tb_login_1.py	/^checkCodeUrl = ''$/;"	v
+commodity_comment	TB/items.py	/^    commodity_comment=0$/;"	v	class:__shop_commodity
+commodity_id	TB/items.py	/^    commodity_id=0$/;"	v	class:__shop_commodity
+commodity_name	TB/items.py	/^    commodity_name=""$/;"	v	class:__shop_commodity
+commodity_price	TB/items.py	/^    commodity_price=0$/;"	v	class:__shop_commodity
+commodity_promo_price	TB/items.py	/^    commodity_promo_price=0$/;"	v	class:__shop_commodity
+commodity_sales	TB/items.py	/^    commodity_sales=0$/;"	v	class:__shop_commodity
+commodity_stock	TB/items.py	/^    commodity_stock=0$/;"	v	class:__shop_commodity
+commodity_url	TB/items.py	/^    commodity_url=""$/;"	v	class:__shop_commodity
+current_shopid	TB/spiders/taobao_spider.py	/^    current_shopid = 67482751$/;"	v	class:TaobaoSpider
+getAllGoods	tb_login.py	/^    def getAllGoods(self,pageNum):$/;"	m	class:Taobao
+getCheckCode	tb_login.py	/^    def getCheckCode(self,page):$/;"	m	class:Taobao
+getCheckCode	tb_login_1.py	/^def getCheckCode(url):$/;"	f
+getGoodsInfo	tool.py	/^    def getGoodsInfo(self,page):$/;"	m	class:Tool
+getGoodsPage	tb_login.py	/^    def getGoodsPage(self,pageIndex):$/;"	m	class:Taobao
+getPageNum	tool.py	/^    def getPageNum(self,page):$/;"	m	class:Tool
+getSTbyToken	TB/spiders/taobao_spider.py	/^    def getSTbyToken(self,response):$/;"	m	class:TaobaoSpider
+getSTbyToken	tb_login.py	/^    def getSTbyToken(self,token):$/;"	m	class:Taobao
+handleResponseText	tb_login_1.py	/^def handleResponseText(text):$/;"	f
+headers	tb_login_1.py	/^headers = {$/;"	v
+loginByST	TB/spiders/taobao_spider.py	/^    def loginByST(self, response):$/;"	m	class:TaobaoSpider
+loginByST	tb_login.py	/^    def loginByST(self,st,username):$/;"	m	class:Taobao
+loginToTaobao	tb_login_1.py	/^def loginToTaobao():$/;"	f
+loginWithCheckCode	TB/spiders/taobao_spider.py	/^    def loginWithCheckCode(self, response):$/;"	m	class:TaobaoSpider
+loginWithCheckCode	tb_login.py	/^    def loginWithCheckCode(self):$/;"	m	class:Taobao
+main	tb_login.py	/^    def main(self):$/;"	m	class:Taobao
+name	TB/spiders/taobao_spider.py	/^    name = "tb_spider"$/;"	v	class:TaobaoSpider
+needCheckCode	TB/spiders/taobao_spider.py	/^    def needCheckCode(self, response):$/;"	m	class:TaobaoSpider
+needCheckCode	tb_login.py	/^    def needCheckCode(self):$/;"	m	class:Taobao
+parse	TB/spiders/taobao_spider.py	/^    def parse(self, response):$/;"	m	class:TaobaoSpider
+parse_commodity	TB/spiders/taobao_spider.py	/^    def parse_commodity(self, response):$/;"	m	class:TaobaoSpider
+parse_location_by_shipping_addr	TB/spiders/taobao_spider.py	/^    def parse_location_by_shipping_addr(self, response):$/;"	m	class:TaobaoSpider
+parse_tbshop_detail	TB/spiders/taobao_spider.py	/^    def parse_tbshop_detail(self, response):$/;"	m	class:TaobaoSpider
+parse_tmall_detail	TB/spiders/taobao_spider.py	/^    def parse_tmall_detail(self, response):$/;"	m	class:TaobaoSpider
+password	tb_login_1.py	/^password = "w543478"$/;"	v
+postData	tb_login_1.py	/^postData = {   $/;"	v
+pre_login_fill_info	TB/spiders/taobao_spider.py	/^    def pre_login_fill_info(self):$/;"	m	class:TaobaoSpider
+process_item	TB/pipelines.py	/^    def process_item(self, item, spider):$/;"	m	class:TbPipeline
+request_seen	TB/tb_dupfilter.py	/^    def request_seen(self, request):$/;"	m	class:SeenURLFilter
+sendPostData	tb_login_1.py	/^def sendPostData(url, data, header):$/;"	f
+shop_classify	TB/items.py	/^    shop_classify = Field()$/;"	v	class:TaobaoShop
+shop_commany_name	TB/items.py	/^    shop_commany_name = Field()$/;"	v	class:TaobaoShop
+shop_create_time	TB/items.py	/^    shop_create_time = Field()$/;"	v	class:TaobaoShop
+shop_credit	TB/items.py	/^    shop_credit = Field()/;"	v	class:TaobaoShop
+shop_detail_url	TB/items.py	/^    shop_detail_url = Field()$/;"	v	class:TaobaoShop
+shop_location	TB/items.py	/^    shop_location = Field()$/;"	v	class:TaobaoShop
+shop_name	TB/items.py	/^    shop_name = Field()$/;"	v	class:TaobaoShop
+shop_number	TB/items.py	/^    shop_number = Field()$/;"	v	class:TaobaoShop
+shop_number	TB/items.py	/^    shop_number=0$/;"	v	class:__shop_commodity
+shop_owner	TB/items.py	/^    shop_owner = Field()$/;"	v	class:TaobaoShop
+shop_popularity	TB/items.py	/^    shop_popularity = Field()$/;"	v	class:TaobaoShop
+shop_reserver	TB/items.py	/^    shop_reserver = Field()$/;"	v	class:TaobaoShop
+shop_seller_id	TB/items.py	/^    shop_seller_id = Field()$/;"	v	class:TaobaoShop
+shop_telephone	TB/items.py	/^    shop_telephone = Field()$/;"	v	class:TaobaoShop
+shop_trade_range	TB/items.py	/^    shop_trade_range = Field()$/;"	v	class:TaobaoShop
+shop_url	TB/items.py	/^    shop_url = Field()$/;"	v	class:TaobaoShop
+start_urls	TB/spiders/taobao_spider.py	/^    start_urls = ["https:\/\/shop67482751.taobao.com"]$/;"	v	class:TaobaoSpider
+taobao	tb_login.py	/^taobao = Taobao()$/;"	v
+tbLoginUrl	tb_login_1.py	/^tbLoginUrl = "https:\/\/login.taobao.com\/member\/login.jhtml"$/;"	v
+tb_parse	TB/spiders/taobao_spider.py	/^    def tb_parse(self, response):$/;"	m	class:TaobaoSpider
+username	tb_login_1.py	/^username = "15715513873"$/;"	v
